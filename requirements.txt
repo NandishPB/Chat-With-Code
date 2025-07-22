@@ -1,0 +1,18 @@
+#core dependencies
+streamlit # for building the web app
+langchain # framewrok to manage LLMs  pipelines
+openai  # connect to OpenAI's LLMs (use for LLM API calls) 
+chromadb # for vector database management
+sentence-transformers # for embedding generation
+
+#code parsing libararies
+tree-sitter # for parsing code(converts code into Abstract syntax tree)
+tree-sitter-c # (C language grammar modules for tree-sitter)
+tree-sitter-cpp # (C++ language grammar modules for tree-sitter)
+
+#addition utilities
+beautifulsoup4 # for HTML parsing(useful extracting data from onlne)
+requests # for making HTTP requests
+python-dotenv # for managing environment variables(from .env filies)
+pandas # for data manipulation and analysis
+numpy # for numerical operations
