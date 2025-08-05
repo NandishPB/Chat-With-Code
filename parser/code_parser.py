@@ -81,7 +81,7 @@ class SimpleCppParser:
             with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
                 code = f.read()
 
-            return self.extract_function(code, file_path)
+            return self.extract_functions(code, file_path)
         
         except Exception as e:
             print(f"Error parsing {file_path}: {e}")
